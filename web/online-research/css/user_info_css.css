@@ -1,0 +1,97 @@
+#top{
+    width: 100%;
+    height: 10%;
+    background-color:lightblue;
+    position: relative;
+    z-index: 1;
+}
+
+#logo{
+    width: 15%;
+    height: 80%;
+    background-color:lightblue;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-right: 1%;
+    font-family: 幼圆;
+    font-size:20px;
+    font-weight: bolder;
+    color: aliceblue;
+
+}
+
+#home{
+    width: 10%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    margin-left: 70%;
+}
+
+#main_right{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background-color:whitesmoke;
+    float: left;
+    z-index: 1;
+}
+
+#info{
+    height: 580px;
+    width: 540px;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: relative;
+    float: left;
+    box-shadow: 2px 2px 8px gray ;
+    z-index: 2;
+}
+
+#user_info{
+    font-family:"微软雅黑 Light";
+    font-size: 20px;
+    width: 80%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 10%;
+    position: relative;
+    float: left;
+    border: none;
+    z-index: 3;
+}
+
+#user_sub{
+    height: 40px;
+    width: 70px;
+    margin-left: 40%;
+    background-color: white;
+    border: #3498db 3px solid;
+    border-radius: 20px;
+}
+
+.user_input{
+    width: 60%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0);
+    border:0;
+    border-bottom: darkgray 1.5px solid;
+    outline-style: none;
+    position: relative;
+    float: left;
+}
+
+#user_img{
+    border-radius: 30px;
+    width:60px;
+    height:60px;
+    margin-left: 80%;
+}
